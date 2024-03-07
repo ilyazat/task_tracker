@@ -1,11 +1,11 @@
 package simpletasks
 
 import (
-	"asyncArchCourse/task_tracker/internal/model"
 	"context"
 	"errors"
 	"fmt"
 	"github.com/google/uuid"
+	"github.com/ilyazat/task_tracker/internal/model"
 	"sync"
 )
 

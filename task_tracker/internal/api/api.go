@@ -1,9 +1,9 @@
 package api
 
 import (
-	"asyncArchCourse/task_tracker/internal/model"
 	"context"
 	"encoding/json"
+	"github.com/ilyazat/task_tracker/internal/model"
 	"net/http"
 	"strings"
 
