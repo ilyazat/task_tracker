@@ -2,11 +2,11 @@
 
 ## Architecture
 
-| Domain      | Services                                                                                                                   | 
-|-------------|----------------------------------------------------------------------------------------------------------------------------|
-| Auth        | 1. Auth-Service                                                                                                            |
-| TaskTracker | 1. Manage Tasks (Command) <br/> 2. Task Dashboard (Query) <br/> 3. Notifier                                                |
-| Accounting  | 1. Manage Balance (Command) <br/> 2. Daily Balance Dashboard (Query) <br/> 3. Overall Statistics (Query) <br/> 4. Notifier |
+| Domain      | Services                                                                                                         | 
+|-------------|------------------------------------------------------------------------------------------------------------------|
+| Auth        | 1. Auth-Service                                                                                                  |
+| TaskTracker | 1. Manage Tasks (Command) <br/> 2. Dashboard Service (Query) <br/> 3. Notifier                                   |
+| Accounting  | 1. Account Service (Command) <br/> 2. Dashboard Service (Query) <br/> 3. Audit Service (Query) <br/> 4. Notifier |
 
 Except Auth flow, all the communications between services are asynchronous
 
