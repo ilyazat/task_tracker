@@ -12,9 +12,5 @@ type Task struct {
 }
 
 func (t Task) IsValidID() bool {
-	if t.ID == EmptyUUID {
-		return false
-	}
-
-	return true
+	return t.ID != EmptyUUID
 }

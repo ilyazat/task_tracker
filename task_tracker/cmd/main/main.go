@@ -1,11 +1,12 @@
 package main
 
 import (
-	"asyncArchCourse/task_tracker/internal/api"
-	"asyncArchCourse/task_tracker/internal/repository/simpletasks"
-	"asyncArchCourse/task_tracker/internal/service/tasks"
 	"log"
 	"net/http"
+
+	"github.com/ilyazat/task_tracker/internal/api"
+	"github.com/ilyazat/task_tracker/internal/repository/simpletasks"
+	"github.com/ilyazat/task_tracker/internal/service/tasks"
 )
 
 func main() {

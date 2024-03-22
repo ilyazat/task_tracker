@@ -1,4 +1,4 @@
-module asyncArchCourse
+module github.com/ilyazat/task_tracker
 
 go 1.20
 

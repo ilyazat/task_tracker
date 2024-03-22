@@ -1,9 +1,9 @@
 package tasks
 
 import (
-	"asyncArchCourse/task_tracker/internal/model"
 	"context"
 	"github.com/google/uuid"
+	"github.com/ilyazat/task_tracker/internal/model"
 )
 
 type Task struct {
